@@ -1,7 +1,24 @@
-# Vue 3 + Vite
+# Vue 3 example app 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Example project to test the following Infineon libraries: 
 
-## Recommended IDE Setup
+- design-system-bootstrap, 
+- design-system-tokens, 
+- infineon-icons
+- infineon-icons-vue
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+
+## Installation
+
+Create .npmrc file at project root with following content:
+
+@infineon:registry=https://npm.pkg.github.com/ 
+@fortawesome:registry=https://npm.fontawesome.com/
+    //npm.fontawesome.com/:_authToken=<your-auth-token>
+
+Run:
+
+```npm install```
+
+
+
