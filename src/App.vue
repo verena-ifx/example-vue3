@@ -19,7 +19,7 @@ console.log("test")
 
 
 <style scoped>
-@font-face {
+/* @font-face {
   font-family: ifxTestFont1;
   src: url(source-sans-pro-v16-latin-600.woff);
 }
@@ -27,7 +27,7 @@ console.log("test")
 @font-face {
   font-family: ifxTestFont2;
   src: url(source-sans-pro-v16-latin-600.woff);
-}
+} */
 
 .logo {
   height: 6em;

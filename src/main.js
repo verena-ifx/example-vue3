@@ -3,7 +3,8 @@ import { InfineonIconVue } from '@infineon/infineon-icons-vue';
 import './style.css'
 import App from './App.vue'
 import './plugins/infineonIcons'
-import "@infineon/design-system-bootstrap";
+import "@infineon/infineon-design-system-stencil";
+// import "@infineon/design-system-bootstrap";
 
 
 const app = createApp(App);
