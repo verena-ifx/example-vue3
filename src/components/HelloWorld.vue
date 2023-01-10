@@ -6,13 +6,19 @@
   <p style="font-family:ifxTestFont2">Infineon Font test 2</p>
   <hr />
   <p>Infineon Icon Test:</p>
+  <div>
+    <font-awesome-icon icon="fa-solid fa-user-secret" />
+    <font-awesome-icon icon="fa-regular fa-bicycle" />
+  </div>
+
+
   <infineon-icon-vue icon="cCheck12" />
   <infineon-icon-vue icon="c-check-12" />
   <hr />
 
 
 
-  <button type="button" class="btn btn-primary" @click="count++">Test counter: {{ count}}</button>
+  <button type="button" class="btn btn-primary" @click="count++">Test counter: {{ count }}</button>
 
 
   <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
